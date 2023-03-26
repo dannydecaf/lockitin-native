@@ -26,7 +26,8 @@
     "react-native-web": "~0.18.10",
     "tailwind-react-native-classnames": "^1.5.1",
     "tailwind-rn": "^4.2.0",
-    "tailwindcss-react-native": "^1.7.10"
+    "tailwindcss-react-native": "^1.7.10",
+    "expo-google-app-auth": "~8.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
