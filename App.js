@@ -1,13 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { Button, Text, View } from 'react-native';
+import React from "react";
+import StackNavigator from "./StackNavigator";
+import { NavigationContainer } from "@react-navigation/native";
 
 export default function App() {
-	return (
-	<View className="flex-1 items-center justify-center bg-white">
-		<Text className="text-green-500">Open up App.js to start working on your app!</Text>
-		<Button title="Click Me" />
-		<StatusBar style="auto" />
-	  </View>
-	);
-  }
+  return (
+    <NavigationContainer>
+      <StackNavigator />
+    </NavigationContainer>
+  );
+}
